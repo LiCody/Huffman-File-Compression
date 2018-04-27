@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1520019179 source:c:\users\632808\desktop\decompress\main.cpp
+	<iostream>
+	<fstream>
+
+1520022779 source:\\10.32.140.4\homes\decompress\main.cpp
+	<iostream>
+	<fstream>
+

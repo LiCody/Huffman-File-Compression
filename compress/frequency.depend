@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1520019025 source:c:\users\632808\desktop\frequency\main.cpp
+	<iostream>
+	<fstream>
+	<unordered_map>
+	<stdint.h>
+
+1521017076 source:\\10.32.140.4\homes\frequency\main.cpp
+	<iostream>
+	<fstream>
+	<unordered_map>
+	<stdint.h>
+
