@@ -77,7 +77,7 @@ void Linkedlist::swapNode(int num1, int num2)
     (*current).next = (*current2).next;
     (*current2).next = temp;
 }
-void Linkedlist::push(char character)
+void Linkedlist::push(char character) //adds a Node to the end of a linked list
 {
     Node *temp;
     temp = new Node;
@@ -86,7 +86,7 @@ void Linkedlist::push(char character)
     (*temp).next = first;
     first = temp;
 }
-void Linkedlist::display()
+void Linkedlist::display() //displays the symbol and frequency of a whole linked list in order
 {
      Node *current;
      current = first;
@@ -96,7 +96,7 @@ void Linkedlist::display()
          current = (*current).next;
      }
 }
-void Linkedlist::newNode(char character)
+void Linkedlist::newNode(char character) //adds a new node to the front of the list
 {
      Node *temp;
      Node *knew;
@@ -123,7 +123,7 @@ void Linkedlist::newNode(char character)
          (*temp).next = knew;
      }
 }
-void Linkedlist::sortNode()
+void Linkedlist::sortNode() //sorts nodes from least to greatest
 {
     int j;
     Node *current;
@@ -195,7 +195,7 @@ void Linkedlist::frequency(char symbolo)
         newNode(symbolo);
     }
 }
-void Linkedlist::tree()
+void Linkedlist::tree() 
 {
     Node* current;
     Node* temp;
@@ -295,7 +295,7 @@ void Linkedlist::builder(ifstream& read,Node* current)
         current = first;
     }
 }
-void Linkedlist::hashbrowns()
+void Linkedlist::hashbrowns() //creates a hashtable with the character as an index for the path in binary
 {
     ifstream read("tree2.txt");
     ifstream original("realtest.txt");
@@ -328,7 +328,7 @@ void Linkedlist::hashbrowns()
     original.close();
     bits.close();
 }
-void Linkedlist::biten()
+void Linkedlist::biten() //converts characters into binary
 {
     ifstream bits("bits.txt");
     ofstream bite("bite.txt");
