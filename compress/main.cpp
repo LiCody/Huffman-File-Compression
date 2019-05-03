@@ -1,3 +1,10 @@
+/*
+ * File Compression
+ * Author: Cody Li            
+ * Date: May 2018
+ * Email: licody2000@gmail.com
+ * Purpose: Reduce the size of a .txt file by 1/8
+ */
 #include <iostream>
 #include <fstream>
 #include <unordered_map>
